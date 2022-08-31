@@ -13,11 +13,16 @@ ul {
     margin: 0;
 }
 
-.header {
+.header, .container-a {
     background-color: #1f2937;
     display: flex;
-    justify-content: space-between;
     padding: 20px 200px;
+    
+}    
+
+.header {
+    justify-content: space-between;
+    
 }
 
 .heading-left {
@@ -30,4 +35,49 @@ ul {
     color: #e5e7eb;
     font-size: 18px;
     gap: 20px;
+}
+
+.container-a {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container-a-left {
+    margin-right: 50px;
+}
+.title-a {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.content-a {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 6px;
+    
+}
+
+.button-a {
+    background-color: #3882f6;
+    color: #f9faf8;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 15px;
+    padding: 5px 20px;
+    font-weight: bold;
+    border: none;
+    font-size: 18px;
+}
+
+.container-a-right {
+    display: flex;
+    width: 500px;
+    height: 200px;
+    background-color: rgb(119, 119, 119);
+    align-items: center;
+    justify-content: center;
+    color: #f9faf8;
+    flex-shrink: 0;
+
 }
