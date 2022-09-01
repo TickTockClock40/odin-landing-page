@@ -70,7 +70,7 @@ ul {
     font-size: 18px;
 }
 
-.container-a-right {
+.container-a-right { /*Follow up on this item, it doesn't align center*/
     display: flex;
     width: 500px;
     height: 200px;
@@ -105,7 +105,7 @@ ul {
     gap: 10px;
     /*padding: 20px 100px;*/
     flex-shrink: 0;
-    margin: 0 33%;
+    margin: 0 25%;
 
 }
 
@@ -147,4 +147,25 @@ ul {
     justify-content: center;
     align-items: center;
     display: flex;
+}
+
+.section-c {
+    display: flex;
+    padding:50px 25%  ;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    font-size: 22px;
+    font-weight: bold;
+    margin-left:auto;
 }
