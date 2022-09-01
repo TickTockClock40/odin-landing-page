@@ -22,6 +22,8 @@ ul {
 
 .header {
     justify-content: space-between;
+    position: sticky;
+    top: 0;
     
 }
 
