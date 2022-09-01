@@ -58,14 +58,14 @@ ul {
     
 }
 
-.button-a {
+button {
     background-color: #3882f6;
     color: #f9faf8;
     text-align: center;
     border-radius: 8px;
     margin-top: 15px;
     padding: 5px 20px;
-    font-weight: bold;
+    font-weight: normal;
     border: none;
     font-size: 18px;
 }
@@ -161,11 +161,40 @@ ul {
 .quote {
     font-size: 36px;
     font-style: italic;
-    color: #1f2937;
+    color: #59677a;
 }
 
 .author {
     font-size: 22px;
     font-weight: bold;
     margin-left:auto;
+}
+
+.section-d {
+    display:flex;
+    background-color: #3882f6;
+    margin: 50px 20%;
+    padding: 50px;
+    border-radius: 8px;
+    color: #e5e7eb;
+    justify-content: space-between;
+}
+
+.title-d {
+    font-weight: bold;
+    font-size: 20px;
+}
+.content-d {
+    padding-right: 50px;
+}
+
+.right-d-button {
+    border: 2px solid white;
+    border-color: white;
+    flex-shrink: 0;
+    flex-grow: 0;
+    align-items: center;
+    margin: 0;
+    width: 125px;
+    height: 35px;
 }
