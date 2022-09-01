@@ -198,3 +198,12 @@ button {
     width: 125px;
     height: 35px;
 }
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    color: #e5e7eb;
+    padding: 30px;
+    
+}
